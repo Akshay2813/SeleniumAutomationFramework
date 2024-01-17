@@ -18,6 +18,7 @@
 		    <version>7.8.0</version>
 	    </dependency>
 	    
+	    <!-- below two JARs used for logging purppose -->
 	    <dependency>
 				<groupId>org.apache.logging.log4j</groupId>
 				<artifactId>log4j-api</artifactId>
@@ -29,8 +30,29 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.22.1</version>
     	</dependency>
-	  	
-		
 	
+	  	
+	<!-- below two JARs used for Data Driven Testing using Excel file for XLuitl.java class -->
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.4</version>
+		</dependency>
+	
+	<!-- below  JAR used for extent report -->
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+		
   </dependencies>
 </project>
