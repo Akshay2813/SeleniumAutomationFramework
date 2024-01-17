@@ -1,0 +1,7 @@
+[INFO ] 2024-01-17 17:34:09.037 [main] TC_02_loginTest_Logging_log4j - =====Entering BaseURL========
+[INFO ] 2024-01-17 17:34:10.017 [main] TC_02_loginTest_Logging_log4j - =====Entering UserName========
+[INFO ] 2024-01-17 17:34:10.235 [main] TC_02_loginTest_Logging_log4j - ===== userName entered Sucussfully========
+[INFO ] 2024-01-17 17:34:10.236 [main] TC_02_loginTest_Logging_log4j - =====Entering password========
+[INFO ] 2024-01-17 17:34:10.447 [main] TC_02_loginTest_Logging_log4j - ===== password entered Sucussfully========
+[INFO ] 2024-01-17 17:34:10.448 [main] TC_02_loginTest_Logging_log4j - =====Clicking on Login Button========
+[INFO ] 2024-01-17 17:34:10.819 [main] TC_02_loginTest_Logging_log4j - =====SucessFully Logged in========

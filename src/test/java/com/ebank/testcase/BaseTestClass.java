@@ -1,6 +1,8 @@
 package com.ebank.testcase;
 
 import org.testng.annotations.BeforeMethod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
@@ -18,12 +20,14 @@ public class BaseTestClass {
 	
 	
 	public static WebDriver driver;
-	
+	public Logger logger;
+
 	
 	
 	@BeforeClass
 	public void setUp() {
 		
+		logger=LogManager.getLogger(this.getClass());
 		System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\drivers\\msedgedriver.exe");
 		
 		driver= new EdgeDriver();
